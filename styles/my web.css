@@ -16,7 +16,23 @@ body{
     font-weight: 700;
     color: white;
     padding: 15px 35px;
+
 }
+.section-title{
+    color: black;
+    text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+
+
+}
+.section-description{
+    color: #0350a7;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* nav related styles */
 nav {
     display: flex;
@@ -41,14 +57,39 @@ nav a{
 }
 /* header related styles */
 .header{
-    background-color:skyblue;
+    background-color:rgb(135, 235, 230);
+    background-image: url('../backk.jpg'); 
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding:30px 30px 30px  150px;
+    padding:30px 0px 0px  150px;
     display: flex;
     align-items: center;
+}
+.banner-content{
+    max-width: 800px;
 }
 .banner .profile-pc{
     width: 400px;
     height: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/* main section style */
+
+/* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: rgb(127, 225, 255);
+    margin: 130px 0;
 }
